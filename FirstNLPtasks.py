@@ -45,10 +45,24 @@ find_largest([124,2435,67,87,652,1,56,954])
 
 # Task 5 - String and Loops
 my_string = "Thisdoesntwork"
-
+test = my_string[0]
 #index = 0
 #len(my_string)
-#letter = my_string[0]
+#letter = my_string[0]¢
+
+emptylist = []
+
+for elem in my_string[0:14]:
+    print(elem)
+
+for elem in my_string[ : :-1]:
+    print(elem)
+
+i = 1 
+while i <= len(my_string):
+    print(my_string[-i])
+    i = i + 1    
+
 
 print(my_string[::1])
 
