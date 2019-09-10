@@ -22,3 +22,19 @@ def add_hello_to_string(string):
 
 add_hello_to_string("test")
 
+# Task 1 - Creat string which uses addition
+"westworld" + " " + "rocks"
+
+# Task 2 - Multiplication
+
+("westworld" + " " + "rocks"+ " ") * 10
+
+# Task 3 - use at least one object method
+'hej'.capitalize()
+
+# Task 4 - def a function taking two numbers, printing both the sum and the calculation
+def calculator(x,y):
+    answer = x + y
+    print(f"{x}+{y}+{answer}")
+
+calculator(2,5)
