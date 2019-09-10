@@ -43,3 +43,25 @@ def find_largest(the_list):
 
 find_largest([124,2435,67,87,652,1,56,954])
 
+# Task 5 - String and Loops
+my_string = "Thisdoesntwork"
+
+#index = 0
+#len(my_string)
+#letter = my_string[0]
+
+print(my_string[::1])
+
+
+# Task 6 - Dictionary - first defining 
+dict = {
+    "class": "NLP",
+    "student": "Me",
+    "year": "2019"
+}
+print(dict)
+
+#printing all key names in dictonary in a list
+for x in dict: 
+    print(x)
+
